@@ -1,0 +1,26 @@
+{
+  "name": "fe39-onl-tms",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikaVolkova/FE39-onl-TMS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikaVolkova/FE39-onl-TMS/issues"
+  },
+  "homepage": "https://github.com/NikaVolkova/FE39-onl-TMS#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "sass": "^1.55.0"
+  }
+}
