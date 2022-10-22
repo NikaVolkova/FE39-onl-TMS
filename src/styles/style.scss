@@ -383,7 +383,7 @@ align-content: space-between;
 flex-direction: row;
 flex-wrap: wrap;
 background-color: transparent;
-max-height: 450px;
+height: 450px;
 max-width: 470px;
 background: #FFFFFF;
 padding: 0;
@@ -403,7 +403,6 @@ border:0;
   text-align: center;
   padding-top: 35px;
   max-width: 190px;
-  height: 270px;
   position: relative;
   
 }
@@ -737,7 +736,7 @@ line-height: 19px;
         border: 1px solid #C6CBCD;
         @media screen and (max-width:1200px) {
           margin-right: 30px;
-          max-width: 600px;
+          max-width: 1190px;
        }
        @media screen and (max-width:1024px) {
           margin-left: 35px;
@@ -837,15 +836,13 @@ color: #FFFFFF;
     }
     .Rectangle{
     
-    max-width: 470px;
+    width: 470px;
     height: 500px;
     background: url(./Rectangle.png) no-repeat;
     background-size: cover;
     background-position: right;
     display: block;
-    @media screen and (max-width:767px) {
-      background-image: none;
-      width: 0;
+    
       @media screen and (max-width:1200px) {
         font-size: 27px;
         padding-bottom: 50px;
@@ -856,8 +853,9 @@ color: #FFFFFF;
         padding-bottom: 40px;
       }
       @media screen and (max-width:767px) {
-        max-width: 200px;
-      }
+        background-image: none;
+        width: 0;
+     
     }
   }
 }  
@@ -1625,19 +1623,8 @@ background-size: cover;
   align-items: center;
   text-align: center;
   flex-direction: row;
-    max-width: 1170px; 
-    @media screen and (max-width:1024px) {
-      max-width: 960px; 
-      text-align: center;
-   }
-   @media screen and (max-width:690px) {
-    max-width: 600px; 
-    text-align: center;
-      }
-      @media screen and (max-width:320px) {
-        max-width: 320px; 
-        text-align: center;
-          }
+  max-width: 1170px; 
+
 }
             .text-form_place{
               display: flex;
@@ -1646,10 +1633,11 @@ background-size: cover;
               flex-direction: column; 
               flex-wrap: wrap;
               height: 300px;
+            
             }
         
             .name_text,.email_text,.password_text{
-              max-width: 571px;
+              width: 571px;
               margin-right: 30px;
                 font-family: 'Open Sans';
                 font-style: normal;
@@ -1670,7 +1658,7 @@ background-size: cover;
               background-color: transparent;
               border:0;
               border-bottom: 1px solid#BDBDBD;
-              max-width:569px;
+              width:569px;
               height: 193px;
               font-family: 'Open Sans';
               font-style: normal;
@@ -1680,18 +1668,7 @@ background-size: cover;
               align-items: center;
               box-sizing: border-box;
               color: #BDBDBD;
-              @media screen and (max-width:1024px) {
-                max-width: 960px; 
-                text-align: center;
-             }
-             @media screen and (max-width:690px) {
-              max-width: 500px; 
-              text-align: center;
-                }
-                @media screen and (max-width:320px) {
-                  max-width: 200px; 
-                  text-align: center;
-                    }
+
           }
         
             .submit{
